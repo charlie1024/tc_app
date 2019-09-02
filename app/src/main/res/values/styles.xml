@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="AppBaseTheme"/>
+
+    <style name="Animations" />
+    
+	<style name="Animations.UserWindowsDialogs">
+        <item name="@android:windowEnterAnimation">@anim/bring_mid</item>
+        <item name="@android:windowExitAnimation">@anim/bring_bottom</item>
+	</style>
+	
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.timestamp.calculator.CheckBoxListLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <RadioButton
+        android:id="@+id/ckb"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="10dip"
+        android:layout_weight="1"
+        android:focusable="false"
+        android:paddingTop="@dimen/padding_tiny"
+        android:paddingBottom="@dimen/padding_tiny" />
+
+    <TextView android:id="@+id/itemText" android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentTop="true"
+        android:gravity="left"
+        android:paddingTop="@dimen/padding_tiny"
+        android:paddingBottom="@dimen/padding_tiny"
+        android:textSize="22sp" android:layout_weight="5"
+        android:layout_marginLeft="10dip"/>
+</com.timestamp.calculator.CheckBoxListLayout>

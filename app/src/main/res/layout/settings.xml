@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+	<PreferenceCategory
+		android:title="@string/optionsGeneral">
+	
+    <CheckBoxPreference
+        android:id="@+id/ifSavesValue"
+		android:summary="@string/ifSavedesc"
+		android:key="ifSaves"
+		android:title="@string/ifSave"/>
+    
+    </PreferenceCategory>
+    
+		<PreferenceCategory
+		android:title="@string/accessibility">
+
+   <CheckBoxPreference
+        android:id="@+id/autoCalc"
+		android:summary="@string/autoCalcdesc"
+		android:key="autoCalc"
+		android:title="@string/autoCalc"/>
+ 
+        <CheckBoxPreference
+        android:id="@+id/ifIMEShows"
+		android:summary="@string/ifIMEShowsdesc"
+		android:key="ifIMEShows"
+		android:title="@string/ifIMEShows"/>
+		
+		<CheckBoxPreference
+		android:id="@+id/ifShowTZ"
+		android:summary="@string/ifShowTZdesc"
+		android:key="ifShowTZ"
+		android:title="@string/ifShowTZ"/>
+		
+		<CheckBoxPreference
+		android:id="@+id/AMPMnotNeeded"
+		android:summary="@string/NotuseAMPMdesc"
+		android:key="NotuseAMPM"
+		android:title="@string/NotuseAMPM"/>
+
+		<CheckBoxPreference
+		android:id="@+id/VibMotorUse"
+		android:summary="@string/VibMotorUsedesc"
+		android:key="VibMotorUse"
+		android:title="@string/VibMotorUse"/>
+		
+	</PreferenceCategory>
+	
+		<PreferenceCategory
+		android:title="@string/optionWidgets">
+    
+        <Preference
+        android:id="@+id/skBarPref"
+		android:summary="@string/skBarPrefDesc"
+		android:key="skBarValue"
+		android:title="@string/skBarPrefTitle"/>
+        
+        <Preference
+		android:id="@+id/bgcolorSettings"
+		android:summary="@string/pickbgColorDesc"
+		android:key="bgcolorSettings"
+		android:title="@string/pickbgColor"/>
+        
+        <Preference
+		android:id="@+id/fontcolorSettings"
+		android:summary="@string/pickfontColorDesc"
+		android:key="fontcolorSettings"
+		android:title="@string/pickfontColor"/>
+
+		<Preference
+		android:id="@+id/fontSizeSettings"
+		android:summary="@string/fontSizeDesc"
+		android:key="fontSize"
+		android:title="@string/fontSize"/>
+
+	</PreferenceCategory>
+
+	<PreferenceCategory
+		android:title="@string/strNotification">
+
+		<CheckBoxPreference
+			android:id="@+id/ShowNotifi"
+			android:summary="@string/strUseNotificationDesc"
+			android:key="ShowNotifi"
+			android:title="@string/strUseNotification"/>
+
+		<CheckBoxPreference
+			android:id="@+id/ShowNotifiHex"
+			android:summary="@string/strUseNotificationHexDesc"
+			android:key="ShowNotifiHex"
+			android:title="@string/strUseNotificationHex"
+			android:dependency="ShowNotifi"/>
+
+        <CheckBoxPreference
+            android:id="@+id/ShowNotifiUser"
+            android:summary="@string/strUseNotificationUserDesc"
+            android:key="ShowNotifiUser"
+            android:title="@string/strUseNotificationUser"
+            android:dependency="ShowNotifi"/>
+
+		<Preference
+			android:id="@+id/n_skBarPref"
+			android:summary="@string/n_skBarPrefDesc"
+			android:key="n_skBarValue"
+			android:title="@string/n_skBarPrefTitle"/>
+
+		<Preference
+			android:id="@+id/n_bgcolorSettings"
+			android:summary="@string/n_pickbgColorDesc"
+			android:key="n_bgcolorSettings"
+			android:title="@string/n_pickbgColor"/>
+
+		<Preference
+			android:id="@+id/n_fontcolorSettings"
+			android:summary="@string/n_pickfontColorDesc"
+			android:key="n_fontcolorSettings"
+			android:title="@string/n_pickfontColor"/>
+
+		<Preference
+			android:id="@+id/notifontSizeSettings"
+			android:summary="@string/notifontSizeDesc"
+			android:key="notifontSize"
+			android:title="@string/notifontSize"/>
+
+	</PreferenceCategory>
+
+</PreferenceScreen>

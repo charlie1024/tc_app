@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="format_menuArray">
+		<item>Edit</item>
+		<item>Delete</item>
+	</string-array>
+    <string-array name="st_dateArray">
+		<item>yyyy-MM-dd HH:mm:ss</item>
+		<item>yyyy/MM/dd HH:mm:ss</item>
+		<item>MM-dd-yyyy HH:mm:ss</item>
+		<item>MM/dd/yyyy HH:mm:ss</item>
+		<item>dd-MM-yyyy HH:mm:ss</item>
+		<item>dd/MM/yyyy HH:mm:ss</item>
+		<item>yyyy-MM-dd</item>
+		<item>yyyy/MM/dd</item>
+		<item>MM-dd-yyyy</item>
+		<item>MM/dd/yyyy</item>
+		<item>dd-MM-yyyy</item>
+		<item>dd/MM/yyyy</item>
+		<item>a hh:mm:ss</item>
+	</string-array>
+    <declare-styleable name="AmbilWarnaPreference">
+        <attr format="boolean" name="supportsAlpha"/>
+    </declare-styleable>
+    <dimen name="about_warningsize">16dp</dimen>
+    <dimen name="ambilwarna_hsvHeight">240dp</dimen>
+    <dimen name="ambilwarna_hsvWidth">240dp</dimen>
+    <dimen name="ambilwarna_hueWidth">30dp</dimen>
+    <dimen name="ambilwarna_spacer">8dp</dimen>
+    <dimen name="font_big">24sp</dimen>
+    <dimen name="font_blarge">28sp</dimen>
+    <dimen name="font_large">32sp</dimen>
+    <dimen name="font_normal">22sp</dimen>
+    <dimen name="font_small">20sp</dimen>
+    <dimen name="font_xlarge">40sp</dimen>
+    <dimen name="padding_big">40dp</dimen>
+    <dimen name="padding_bigger">48dp</dimen>
+    <dimen name="padding_biggest">72dp</dimen>
+    <dimen name="padding_large">36dp</dimen>
+    <dimen name="padding_normal">20dp</dimen>
+    <dimen name="padding_notifi">8dp</dimen>
+    <dimen name="padding_slight">12dp</dimen>
+    <dimen name="padding_tiny">6dp</dimen>
+    <dimen name="spinner_dpi">36dp</dimen>
+    <dimen name="widget_size">54dp</dimen>
+    <string name="AlreadyClear">List is already empty.</string>
+    <string name="CannotConvert">Cannot convert due to wrong date format.</string>
+    <string name="GPSTurnedOff">GPS Not Turned On</string>
+    <string name="NoDateFormat">There are no date formats.</string>
+    <string name="NoItemSelected">No item was selected.</string>
+    <string name="NoItemSelectedCaption">No item selected</string>
+    <string name="NotuseAMPM">Use 24-hour system</string>
+    <string name="NotuseAMPMdesc">Check this value if you want to use 24-hour system.</string>
+    <string name="ShowToolTip">Show Tooltip at converter</string>
+    <string name="ShowToolTipdesc">When use timestamp-date converter, you may need a tooltip or not.</string>
+    <string name="TurnOnTheGPS">If you want to know your location, you must turn on the GPS. Proceed?</string>
+    <string name="VibMotorUse">Use Vibrator</string>
+    <string name="VibMotorUsedesc">Use Vibrator when clicking widget or notification.</string>
+    <string name="Wtisnow">What Timestamp is it now? \n(Just long-click timestamp to copy)</string>
+    <string name="accessibility">Accessibility</string>
+    <string name="app_name">Timestamp Calculator</string>
+    <string name="autoCalc">Auto conversion</string>
+    <string name="autoCalcdesc">When using Timestamp to Date Converter, you can get the result immediately. Button will disappear.</string>
+    <string name="back">Back</string>
+    <string name="blank">----------</string>
+    <string name="blank1">\</string>
+    <string name="colorConfirm">Confirm</string>
+    <string name="colorDefaults">Default Color</string>
+    <string name="confirmDeleteCheckedString">Really do you want to delete checked items?</string>
+    <string name="confirmDeleteString">Really do you want to delete all items?</string>
+    <string name="confirmDeleteThisString">Really do you want to delete this item?</string>
+    <string name="convert">Convert</string>
+    <string name="convertWarn">No timestamp was entered. Convert it first.</string>
+    <string name="copied">Timestamp was successfully copied.</string>
+    <string name="desc">Uses Greenwich Observatory Time. You might use this when needed to use standard time.</string>
+    <string name="duplicated">This item will be duplicated, thus not added.</string>
+    <string name="exampleStr">"0000\nFFFF"</string>
+    <string name="exit">Exit</string>
+    <string name="fontSize">Widget Font Size</string>
+    <string name="fontSizeDesc">Set the font size of the widget(dp unit).</string>
+    <string name="getDbl">Get Now(Hexadecimal)</string>
+    <string name="getDem">Get Now(Decimal)</string>
+    <string name="getNor">Get Now(Integer)</string>
+    <string name="goTo">Timestamp-Date Converter</string>
+    <string name="help">"For example, I will show the display of the date of 2007-09-10 06:32:08 PM.
+        'a' means AM/PM.
+        'y' means Year.
+        'M' means Month.
+        'd' means Day of month.
+        'H' means Hour of day.
+        'm' means Minutes.
+        's' means Second.
+        \nAs a result, you have to set the following form:
+        yyyy-MM-dd hh:mm:ss a
+        \nIf you want the diversity of date format, look at this.
+        'yy' displays '07'.
+        'LLL' or 'MMM' displays 'Sep'.
+        'LLLL' or 'MMMM' displays 'September'.
+        'E' or 'EE' or 'EEE' displays 'Mon'.
+        'EEEE' displays 'Monday'.
+        'h' displays '6'.
+        's' displays '8'.
+        'H' displays '18'.
+        "</string>
+    <string name="ifIMEShows">Show IME automatically</string>
+    <string name="ifIMEShowsdesc">Shows soft keyboard automatically.</string>
+    <string name="ifSave">Save GMT(UTC) checkbox values</string>
+    <string name="ifSavedesc">Check this so that save GMT(UTC) checkbox values.</string>
+    <string name="ifShowTZ">Show Timezone</string>
+    <string name="ifShowTZdesc">Shows Timezone when timestamp or date result shown.</string>
+    <string name="inputWarn">No timestamp was inputted. Input it first.</string>
+    <string name="isGMT">Print GMT(UTC) Timezone</string>
+    <string name="isGMTD">Use GMT(UTC) Date</string>
+    <string name="limitHelp">Set timestamp max length</string>
+    <string name="limitHelpdesc">Set timestamp max length. If it is null or bigger than 14, will be resetted.</string>
+    <string name="menu_about">About....</string>
+    <string name="menu_additem">Add new format</string>
+    <string name="menu_deleteAll">Delete All</string>
+    <string name="menu_deleteChecked">Delete Checked</string>
+    <string name="menu_deleteThis">Delete This</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_mngFormat">Manage User Formats</string>
+    <string name="menu_modifyitem">Modify format</string>
+    <string name="menu_pasteFromClipboard">Paste From Clipboard</string>
+    <string name="menu_settings">Settings</string>
+    <string name="mngFormat">User Formats</string>
+    <string name="n_pickbgColor">Pick Noti background color</string>
+    <string name="n_pickbgColorDesc">Pick Noti background color.</string>
+    <string name="n_pickfontColor">Pick Noti font color</string>
+    <string name="n_pickfontColorDesc">Pick Noti font color.</string>
+    <string name="n_skBarPrefDesc">Set Noti background opacity.</string>
+    <string name="n_skBarPrefTitle">Noti Background Opacity</string>
+    <string name="notifontSize">Notification Font Size</string>
+    <string name="notifontSizeDesc">Set the font size of the notification(dp unit, use proper size or layout issue will occur because of limited area).</string>
+    <string name="optionWidgets">Widget Settings</string>
+    <string name="optionsGeneral">General Settings</string>
+    <string name="pickColor">Color selection</string>
+    <string name="pickbgColor">Pick background color</string>
+    <string name="pickbgColorDesc">Pick widget background color.</string>
+    <string name="pickfontColor">Pick font color</string>
+    <string name="pickfontColorDesc">Pick widget font color.</string>
+    <string name="retryWarn">No timestamp was printed. Calculate it first.</string>
+    <string name="seeDetails">See Details</string>
+    <string name="sendMail">Send Mail</string>
+    <string name="setTS_d">Set Date</string>
+    <string name="setTS_t">Set Time</string>
+    <string name="skBarPrefDesc">Set background opacity.</string>
+    <string name="skBarPrefTitle">Background Opacity</string>
+    <string name="strFirstRunAfterSetup">First run after install, restarting…</string>
+    <string name="strHexWidgetSignal">com.timestamp.calculator.HEXWIDGET_UPDATE</string>
+    <string name="strHexWidgetSignalDeleted">com.timestamp.calculator.HEXWIDGET_DELETED</string>
+    <string name="strHexWidgetSignalDisabled">com.timestamp.calculator.HEXWIDGET_DISABLED</string>
+    <string name="strLocationSucceed">com.timestamp.calculator.LOCATION_GETTED</string>
+    <string name="strNoSelectedForced">"No selected item. forcing format as 'yyyy-MM-dd'"</string>
+    <string name="strNotification">Notification</string>
+    <string name="strPleaseWait">Please wait…</string>
+    <string name="strPrefChangedSignal">com.timestamp.calculator.PREFERENCE_CHANGED</string>
+    <string name="strSelect">Select</string>
+    <string name="strTooManyFormats">There is too many formats. Delete all or certain formats to make new formats.</string>
+    <string name="strUseNotification">Use Notification</string>
+    <string name="strUseNotificationDesc">Use Timestamp Notification.</string>
+    <string name="strUseNotificationHex">Use Datestamp Notification</string>
+    <string name="strUseNotificationHexDesc">Use Hex Timestamp(Datestamp) Notification. Notification setting must be activated.</string>
+    <string name="strUseNotificationUser">Use User-defined Notification</string>
+    <string name="strUseNotificationUserDesc">"Use user-defined formatted Notification such as 'yyyy-MM-dd'. Notification setting must be activated."</string>
+    <string name="strWidgetSignal">com.timestamp.calculator.WIDGET_UPDATE</string>
+    <string name="strWidgetSignalDeleted">com.timestamp.calculator.WIDGET_DELETED</string>
+    <string name="strWidgetSignalDisabled">com.timestamp.calculator.WIDGET_DISABLED</string>
+    <string name="textHint">Enter a timestamp.</string>
+    <string name="title_activity_main">Timestamp Calculator</string>
+    <string name="title_hexwidget_main">Timestamp Widget(Hexadecimal)</string>
+    <string name="title_widget_main">Timestamp Widget</string>
+    <string name="tsName">Timestamp Widget</string>
+    <string name="ts_getnow">Get now</string>
+    <string name="useDV">Use Hexadecimal Timestamp</string>
+    <string name="warning">"Changelog\n
+        \n1.6.0.2 : 16-radix Timestamp checkbox crash bug, minus(-) input bug fixed. Sorry for inconvenience.
+		\n1.6.0.1 : Notification error in Oreo fixed, and some buges fixed.
+		\n1.6 : Some UI modifications for some machines, and you can use Hex Timestamp(Datestamp) or user-defined format for notification. Thanks for Sunny Saini's suggestion. You can add more formats in 'Manage User Formats' in Timestamp-Date Converter screen menu.
+        \n\nTimestamp Calculator 1.6.0.2(90)
+        \nThis application works with just simply printing timestamp. If you use this, I will regard as you agreed my rules. \n\n1. This is just free application, thus you can use not limited. Also, I do not discriminate. Yet, If this application have distributed with a fee, that's illegal and would punished. \n\n2. If you edited my project, you cannot discuss about any problem to me. I guarantee this app that has original codes, therefore if you edited code, you cannot interpellate to me. Instead, if my code has any problem, then I can help you. If my application has bug, compose an e-mail to <a href="mailto:illustrious@inu.ac.kr">illustrious@inu.ac.kr</a>. I really hope you will find a bug.\n\n3. This app has copyright, you must not duplicate my code except when permitted by me. If you edited my code and you thought that is *my copyright*, you can write copyright with me. Also copyright of your code will absolutely protected."</string>
+    <string name="zeroTimestamp">0000000000</string>
+    <style name="Animations"/>
+    <style name="Animations.UserWindowsDialogs">
+        <item name="@android:windowEnterAnimation">@anim/bring_mid</item>
+        <item name="@android:windowExitAnimation">@anim/bring_bottom</item>
+	</style>
+    <style name="AppTheme" parent="AppBaseTheme"/>
+</resources>

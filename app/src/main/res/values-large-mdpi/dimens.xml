@@ -1,0 +1,18 @@
+<resources>
+    
+    <dimen name="ambilwarna_hsvHeight">372dp</dimen>
+	<dimen name="ambilwarna_hsvWidth">372dp</dimen>
+	<dimen name="ambilwarna_hueWidth">60dp</dimen>
+	<dimen name="ambilwarna_spacer">8dp</dimen>
+	<dimen name="spinner_dpi">64dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="about_warningsize">24dp</dimen>
+    <dimen name="padding_lmdpi_biggest">96dp</dimen>
+    <dimen name="SmallCtlSize">28dp</dimen>
+    <dimen name="CtlSize">36dp</dimen>
+    <dimen name="BigCtlSize">48dp</dimen>
+    <dimen name="widget_size">64dp</dimen>
+    
+</resources>

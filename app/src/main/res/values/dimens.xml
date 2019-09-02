@@ -1,0 +1,24 @@
+<resources>
+    <dimen name="padding_normal">20dp</dimen>
+    <dimen name="padding_large">36dp</dimen>
+    <dimen name="padding_big">40dp</dimen>
+    <dimen name="padding_bigger">48dp</dimen>
+    <dimen name="padding_biggest">72dp</dimen>
+    <dimen name="padding_slight">12dp</dimen>
+    <dimen name="padding_tiny">6dp</dimen>
+    <dimen name="padding_notifi">8dp</dimen>
+    <dimen name="spinner_dpi">36dp</dimen>
+    <dimen name="ambilwarna_hsvHeight">240dp</dimen>
+	<dimen name="ambilwarna_hsvWidth">240dp</dimen>
+	<dimen name="ambilwarna_hueWidth">30dp</dimen>
+	<dimen name="ambilwarna_spacer">8dp</dimen>
+	<dimen name="widget_size">54dp</dimen>
+	<dimen name="about_warningsize">16dp</dimen>
+    <dimen name="font_small">20sp</dimen>
+    <dimen name="font_normal">22sp</dimen>
+    <dimen name="font_big">24sp</dimen>
+    <dimen name="font_blarge">28sp</dimen>
+    <dimen name="font_large">32sp</dimen>
+    <dimen name="font_xlarge">40sp</dimen>
+	
+</resources>

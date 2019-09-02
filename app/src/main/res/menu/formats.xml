@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/menu_back_format" android:title="@string/back" android:showAsAction="ifRoom" android:orderInCategory="4"></item>
+    <item android:id="@+id/menu_additem" android:orderInCategory="1" android:title="@string/menu_additem"></item>
+    <item android:id="@+id/menu_deleteChecked" android:orderInCategory="2" android:title="@string/menu_deleteChecked"></item>
+    <item android:id="@+id/menu_deleteAll" android:orderInCategory="3" android:title="@string/menu_deleteAll"></item>
+</menu>

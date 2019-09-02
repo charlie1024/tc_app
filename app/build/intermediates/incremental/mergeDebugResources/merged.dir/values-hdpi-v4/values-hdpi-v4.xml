@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="BigCtlSize">36dp</dimen>
+    <dimen name="CtlSize">24dp</dimen>
+    <dimen name="SmallCtlSize">18dp</dimen>
+    <dimen name="ambilwarna_hsvHeight">204dp</dimen>
+    <dimen name="ambilwarna_hsvWidth">204dp</dimen>
+    <dimen name="ambilwarna_hueWidth">30dp</dimen>
+    <dimen name="ambilwarna_spacer">8dp</dimen>
+    <dimen name="padding_decilarge">28dp</dimen>
+    <dimen name="padding_medium">24dp</dimen>
+    <dimen name="widget_size">54dp</dimen>
+</resources>

@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:id="@+id/menu_about" android:title="@string/menu_about" android:orderInCategory="1"></item>
+	<item android:id="@+id/menu_gotoconvert" android:title="@string/goTo" android:orderInCategory="2"></item>
+	<item android:id="@+id/menu_settings" android:title="@string/menu_settings" android:showAsAction="ifRoom" android:orderInCategory="3"></item>
+	<item android:id="@+id/menu_help" android:title="@string/menu_help" android:orderInCategory="4"></item>
+	<item android:id="@+id/menu_exit" android:title="@string/exit" android:orderInCategory="5"></item>
+    
+</menu>

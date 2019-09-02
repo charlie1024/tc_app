@@ -1,0 +1,110 @@
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingTranslation">
+
+    <string name="app_name">时间戳计算器</string>
+    <string name="menu_settings">设置</string>
+    <string name="menu_help">帮助</string>
+    <string name="title_activity_main">时间戳计算器</string>
+    <string name="title_widget_main">时间戳窗口小部件</string>
+    <string name="isGMT">打印格林威治标准时间（UTC）时区</string>
+    <string name="isGMTD">使用格林威治标准时间（UTC）日期</string>
+    <string name="useDV">用十六进制时间戳</string>
+    <string name="getDem">现在(十进制)</string>
+    <string name="getDbl">现在(十六进制)</string>
+    <string name="getNor">现在(整数)</string>
+    <string name="Wtisnow">现在的时间戳是什么？\n（只需单击时间戳即可复制）</string>
+    <string name="desc">使用格林尼治天文台的时间，这意味着世界标准时间。</string>
+    <string name="menu_about">在应用程序的</string>
+    <string name="copied">时间戳被成功地复制。</string>
+    <string name="exit">退出</string>
+    <string name="help">"例如，我会显示日期2007-09-10 06:32:08 PM。 
+        'a'表示AM / PM。 
+        'y'用于新年。 
+        'M'是指一个月。 
+        'd'表示一个月中的天。 
+        'H'是指一天中的小时。 
+        'm'是指纪要。 
+        's'是指二。 
+        \n因此，您必须设置以下形式： 
+        yyyy-MM-dd hh:mm:ss a 
+        \n如果你想要的日期格式的多样性，看看这个。 
+        'yy'显示'07'。 
+        'LLL'或'MMM'显示'月'。 
+        'LLLL'或'MMMM'显示'月'。 
+        'E'或'EE'或'EEE'显示'星期一'。 
+        'EEEE'显示'星期一'。 
+        'H'显示'6'。 
+        'S'显示'8'。 
+        'H'显示'18'。"</string>
+	<string name="warning">"更新日志版本\n
+		\n1.6.0.2 : 16-radix Timestamp checkbox crash bug, minus(-) input bug fixed. Sorry for inconvenience.
+		\n1.6.0.1 : Notification error in Oreo fixed, some buges fixed.
+		\n1.6 : Some UI modifications for some machines, and you can use Hex Timestamp(Datestamp) user-defined format for notification. Thanks for Sunny Saini's suggestion. You can add more formats in 'Manage User Formats' in Timestamp-Date Converter screen menu.
+        \n\nTimestamp Calculator 1.6.0.2(90)
+	    \nThis application works with just simply printing timestamp. If you use this, I will regard as you agreed my rules. \n\n1. This is just free application, which must not be re-selled for a fee. I want to entirely opened application, thus selling is violating my belief. Also the violation is a violation against my copyright, you must pay attention to this.\n\n2. If you edited my project, you cannot discuss about any problem to me. I guarantee this app that has original codes, therefore if you edited code, you cannot interpellate to me. Instead, if my code has any problem, then I can help you. If my application has bug, compose an e-mail to <a href="mailto:illustrious@inu.ac.kr">illustrious@inu.ac.kr</a>. I really hope you will find a bug.\n\n3. This app has copyright, you must not duplicate my code except when permitted by me. If you edited my code and you thought that is *my copyright*, you can write copyright with me. Also copyright of your code will absolutely protected."</string>
+    <string name="goTo">时间戳日期兑换</string>
+    <string name="convert">兑换</string>
+    <string name="textHint">输入一个非十进制的时间戳。</string>
+    <string name="back">去备份</string>
+    <string name="tsName">时间戳小工具</string>
+    <string name="ifSave">保存 GMT（UTC）复选框值</string>
+    <string name="ifSavedesc">这样，节省 GMT（UTC）复选框值检查。</string>
+	<string name="inputWarn">没有时间戳输入。第一次输入。 </string>
+	<string name="convertWarn">没有时间戳进入。首先把它转换。</string>
+	<string name="retryWarn">没有时间戳打印，它首先计算。</string>
+	<string name="optionsGeneral">常规设置</string>
+	<string name="accessibility">易接近</string>
+	<string name="ifIMEShows">自动显示输入法</string>
+	<string name="ifIMEShowsdesc">自动显示软键盘。</string>
+	<string name="ifShowTZ">显示时区</string>
+	<string name="ifShowTZdesc">显示当前时区的时间戳或日期时，所示的结果。</string>
+	<string name="ts_getnow">立即获取</string>
+	<string name="sendMail">发送邮件</string>
+	<string name="setTS_d">设置日期</string>
+	<string name="setTS_t">设置时间</string>
+	<string name="NotuseAMPM">使用24小时制</string>
+	<string name="NotuseAMPMdesc">检查这个值，如果你要使用24小时制。</string>
+	<string name="limitHelp">设置时间戳最大长度</string>
+	<string name="limitHelpdesc">设置时间戳的最大长度。如果为空或大于14，将复位。</string>
+	<string name="mngFormat">用户的格式</string>
+	<string name="menu_mngFormat">管理用户的格式</string>
+	<string name="menu_additem">添加新格式</string>
+	<string name="menu_modifyitem">修改格式</string>
+	<string-array name="format_menuArray">
+		<item>编辑</item>
+		<item>删除</item>
+	</string-array>
+	<string name="menu_deleteChecked">Delete Checked</string>
+	<string name="menu_deleteAll">全部删除</string>
+	<string name="confirmDeleteString">你真的要删除所有项目吗？</string>
+	<string name="menu_deleteThis">此删除</string>
+	<string name="menu_pasteFromClipboard">从剪贴板粘贴</string>
+	<string name="confirmDeleteThisString">你真的要删除此项目吗？</string>
+	<string name="confirmDeleteCheckedString">Really do you want to delete checked items?</string>
+	<string name="AlreadyClear">已经是空的列表。</string>
+	<string name="duplicated">该项目将被复制，因此不会增加。</string>
+	<string name="skBarPrefTitle">背景透明度</string>
+	<string name="skBarPrefDesc">设置背景不透明度。</string>
+	<string name="optionWidgets">Widget的设置</string>
+	<string name="pickColor">颜色选择</string>	
+	<string name="pickbgColor">选择背景颜色</string>
+	<string name="pickbgColorDesc">选择窗口小部件的背景颜色。</string>
+	<string name="pickfontColor">选择字体颜色</string>
+	<string name="pickfontColorDesc">选择窗口小部件的字体颜色。</string>
+	<string name="autoCalc">自动转换</string>
+	<string name="autoCalcdesc">当使用时间戳日期转换时，你可以立即得到的结果。按钮将消失。</string>
+	<string name="strTooManyFormats">有太多的格式。删除所有或某些格式作出新的格式。</string>
+	<string name="NoDateFormat">有没有当日格式。</string>
+	<string name="ShowToolTip">在转换器显示工具提示</string>
+	<string name="ShowToolTipdesc">当使用时间戳的日期转换器，你可能需要一个工具提示或不。</string>
+	<string name="CannotConvert">Cannot convert due to wrong date format.</string>
+	<string name="seeDetails">See Details</string>
+	<string name="strPleaseWait">Please wait&#8230;</string>
+	<string name="VibMotorUse">Use Vibrator</string>
+	<string name="VibMotorUsedesc">Use Vibrator when clicking widget or notification.</string>
+	<string name="NoItemSelectedCaption">No item selected</string>
+	<string name="NoItemSelected">No item was selected.</string>
+	<string name="fontSize">Font Size</string>
+	<string name="fontSizeDesc">Set the font size of the widget(dp unit).</string>
+</resources>

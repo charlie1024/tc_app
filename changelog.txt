@@ -1,0 +1,43 @@
+        \nVersion 1.4.3 : So many bugs and incompatibilities fixed, convenient management of custom formats.
+        \nVersion 1.4.2.4 : User Format List Error fixed.
+        \nVersion 1.4.2.3 : Help Screen Added. You can enter the screen at the main screen. Tip Setting was removed.
+        \nVersion 1.4.2.2 : Spinner item save bug fixed.
+        \nVersion 1.4.2 : Optimized application speed, soft keyboard bug at timestamp-date converter is fixed.
+        \nVersion 1.4.1 : Bugs fixed, code efficiency improved.
+        \nVersion 1.4.0.1 :
+        1. Application size was reduced.
+        2. Display bugs fixed for Android Tablets.
+        3. Code efficiency improved at widget, and so on.
+        4. You can toggle tip text which is located at timestamp-date converter on Settings.
+		\nVersion 1.3.8 : "Cupcake" and "Donut" Android support re-added, negative timestamp supported.
+        \nVersion 1.3.7.4 : Optimized application, Application can notice to you when user format list view is empty.
+        \nVersion 1.3.7.3 : Optimization, unnecessary codes deleted.
+        \nVersion 1.3.7.2 : In opacity preference, text color bug was fixed.
+        \nVersion 1.3.7.1 : Color Picker bugs fixed. Widget Service immediately would be stopped when you delete widget.
+        \nVersion 1.3.7 : Adopted new Color Picker made by yukuku, aka AmbilWarna library.
+        \nVersion 1.3.6 : When rotates display, all informations at the display will be saved.
+        \nVersion 1.3.5 : Timestamp widget was optimized than former, and force close bug was fixed. Furthermore, when you pick color, you can pick the white or black color as well. When you set opacity of widget, you can edit from the text immediately.
+		\nVersion 1.3.4.1 : Hexadecimal checkbox bug fixed.
+        \nVersion 1.3.4 : Timestamp widget's possibility of bug fixed, other UI improvements. A bug that timestamp-to-date converter always shows software keyboard is fixed and not changed dynamically.
+        \nVersion 1.3.2 : Various bugs fixed, icon changed. At timestamp-date converter, you can copy timestamp from Textbox long click, thus you can use two side of the converter at one screen.\nVersion 1.3.1.1 : Small bug fixed, moved "Settings" menu at main screen to action bar(3.0+). Icon changed, thanks to Wide Studio Team!
+        \nVersion 1.3.1 : Auto conversion feature added.
+        \nVersion 1.3.0.1 : Small bug fixed.
+        \nVersion 1.3.0 : Code organized, optimized. App display was improved.
+        \nVersion 1.2.5.3 : Unused code deleted, Korean text mistake was fixed.
+        \nVersion 1.2.5.2 : Optimization, efficiency improved.
+        \nVersion 1.2.5 : Support for MDPI 1280 * 800 Display functionally, layout fixed.
+        \nVersion 1.2.4 : Widget Background color issue fixed. Also, XHDPI support improved. Sorry for inconvenience!
+        \nVersion 1.2.3 : Widget Background Opacity issue fixed.
+        \nVersion 1.2.2.1 : Dropdown box bug fixed, DB Errors fixed, Format Settings bug fixed.
+        \nVersion 1.2.2 : Added Timestamp Widget. At now widget is in progress, more functions will added.
+        \nVersion 1.2.0.1 : Optimization.
+        \nVersion 1.2.0 : User Format added. You can use customized format made by you! Also, GMT Value save bug was fixed and app was optimized.
+        \nVersion 1.1.1 : Optimization, bug fixed.
+        \nVersion 1.1.0 : Hexadecimal functions added, optimized.
+        \nVersion 1.0.8 : Optimization, bug fix. Timestamp can displayed as Hexadecimal type.
+        \nVersion 1.0.7 : Optimization, bug fixed.
+        \nVersion 1.0.6.1 : Added automatic IME disappear when menu key pressed.
+        \nVersion 1.0.6 : Other bugfixes, added a function what can help conversion Timestamp from Date.
+        \nVersion 1.0.5 : Various bugfix, added formats for timestamp-date converter.
+        \nVersion 1.0.4.5 : Code efficiency fixed, bug fixed. Also app layout was changed whether Timezone is shown.
+        \nVersion 1.0.4.4 : added Timezone options.

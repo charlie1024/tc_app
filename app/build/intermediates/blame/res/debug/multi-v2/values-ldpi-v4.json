@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\AndroidProject\\Timestamp Calculator\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ldpi-v4\\values-ldpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\AndroidProject\\Timestamp Calculator\\app\\src\\main\\res\\values-ldpi\\dimens.xml",
+                    "from": {
+                        "startLines": "9,8,7,5,3,4,6",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "335,295,250,156,63,109,206",
+                        "endColumns": "41,38,43,48,44,45,42",
+                        "endOffsets": "372,329,289,200,103,150,244"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "55,97,136,180,229,274,320",
+                        "endColumns": "41,38,43,48,44,45,42",
+                        "endOffsets": "92,131,175,224,269,315,358"
+                    }
+                }
+            ]
+        }
+    ]
+}

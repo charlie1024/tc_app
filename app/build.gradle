@@ -1,0 +1,32 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 26
+    buildToolsVersion '28.0.3'
+
+    defaultConfig {
+        targetSdkVersion 26
+        applicationId "com.timestamp.calculator"
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_5
+            targetCompatibility JavaVersion.VERSION_1_5
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-project.txt'
+        }
+    }
+
+    lintOptions {
+        checkReleaseBuilds false
+    }
+    compileOptions {
+        targetCompatibility 1.6
+        sourceCompatibility 1.6
+    }
+}
+
+dependencies {
+}

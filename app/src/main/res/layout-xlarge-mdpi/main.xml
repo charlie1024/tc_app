@@ -1,0 +1,90 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/WTIN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="32sp"
+        android:layout_marginTop="@dimen/padding_bigger"
+		android:gravity="center"
+        android:text="@string/Wtisnow"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/timestamps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/WTIN"
+        android:layout_centerHorizontal="true"
+        android:text="@string/blank"
+        android:textSize="48sp"
+        android:layout_marginTop="@dimen/padding_large"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"
+		android:gravity="center"/>
+		
+	<TextView
+        android:id="@+id/timezones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timestamps"
+        android:layout_centerHorizontal="true"
+        android:text="@string/blank1"
+        android:textSize="32sp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold"
+		android:gravity="center"/>
+
+    <Button
+        android:id="@+id/getNow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timezones"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:layout_marginTop="@dimen/padding_bigger"
+        android:text="@string/getNor" />
+
+    <Button
+        android:id="@+id/getNowDemical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/getNow"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/padding_big"
+        android:text="@string/getDem" />
+    
+        <Button
+        android:id="@+id/getNowhD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/getNowDemical"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/padding_big"
+        android:text="@string/getDbl" />
+
+    <CheckBox
+        android:id="@+id/isGMT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/getNowhD"
+        android:layout_centerHorizontal="true"
+        android:textSize="28sp"
+        android:layout_marginTop="@dimen/padding_biggest"
+        android:contentDescription="@string/desc"
+        android:text="@string/isGMT" />
+
+</RelativeLayout>
+
+</ScrollView>

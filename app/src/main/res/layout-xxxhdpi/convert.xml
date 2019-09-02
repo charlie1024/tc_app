@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/sV"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RelativeLayout 
+    android:id="@+id/tV"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/inputtxt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Convert"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/Convert"
+        android:hint="@string/textHint"
+        android:imeOptions="actionDone"
+        android:textSize="20sp"
+        android:singleLine="true" >
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inputtxt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/padding_large"
+        android:gravity="center"
+        android:text="@string/blank"
+        android:textSize="24sp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/Convert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textSize="28sp"
+        android:paddingLeft="@dimen/padding_slight"
+        android:paddingRight="@dimen/padding_slight"
+        android:paddingTop="@dimen/padding_slight"
+        android:paddingBottom="@dimen/padding_slight"
+        android:text="@string/convert" />
+
+    <CheckBox
+        android:id="@+id/useGMT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/result"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/padding_large"
+        android:contentDescription="@string/desc"
+        android:textSize="20sp"
+        android:text="@string/isGMTD" />
+    
+    <CheckBox
+        android:id="@+id/useHexaVal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_small"
+        android:layout_below="@+id/useGMT"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/useDV" />
+
+    <com.timestamp.calculator.SmartSpinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/useHexaVal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/padding_medium" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner"
+        android:layout_marginTop="@dimen/padding_medium"
+        android:layout_centerHorizontal="true" >
+
+        <Button
+            android:id="@+id/setTS_d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/padding_biggest"
+            android:text="@string/setTS_d" />
+
+        <Button
+            android:id="@+id/setTS_t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="@dimen/padding_biggest"
+            android:text="@string/setTS_t" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+</ScrollView>
